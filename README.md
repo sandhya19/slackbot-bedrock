@@ -100,7 +100,10 @@ Incident classified as: *Based on the incident message provided, "the applicatio
 The message indicates that a specific application is not functioning properly, which suggests an issue with the application itself rather than a network problem or a security alert.*
 ```
 ## Demo
+
 Here's a sample interaction with the bot in Slack:
+
+
 ![Slackbot Demo](slackbot-demo.png)
 
 
