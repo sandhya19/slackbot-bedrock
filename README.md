@@ -26,14 +26,17 @@ Slack → API Gateway → Lambda → Claude 3 (Amazon Bedrock)
 ### 3. Lambda cleans the text, classifies it using Claude 3 via Bedrock Messages API
 ### 4. The bot responds in Slack with a classification
 
-## Tech Stack
-Component	Service / Tool
-Slackbot	Slack Events API + Bot Token
-Backend	AWS Lambda (Python)
-AI Model	Amazon Bedrock – Claude 3 Haiku
-Event Routing	API Gateway (Lambda proxy integration)
-Deployment	Manual / Terraform / AWS CDK (optional)
-Logging	CloudWatch Logs
+##  Tech Stack
+
+| Layer            | Technology / Service                     | Description                                  |
+|------------------|-------------------------------------------|----------------------------------------------|
+| Chat Interface   | Slack (Bot + Events API)                 | Handles message events and replies           |
+| Compute          | AWS Lambda (Python 3.10+)                | Serverless function for classification logic |
+| API Gateway      | HTTP API (proxy integration, payload v2) | Exposes Lambda to Slack securely             |
+| AI/ML Engine     | Amazon Bedrock - Claude 3 Haiku          | Classifies incident messages                 |
+| Auth & Security  | Slack OAuth + Signing Secret             | Verifies Slack signatures and tokens         |
+| Observability    | AWS CloudWatch                           | Logs, metrics, and debugging                 |
+
 
 ## Features
 - Slackbot listens to @mentions
