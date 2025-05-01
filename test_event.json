@@ -1,0 +1,7 @@
+{
+  "body": "{\"token\":\"xx-token-123\",\"team_id\":\"T0001\",\"api_app_id\":\"A0001\",\"event\":{\"type\":\"app_mention\",\"user\":\"U123456\",\"text\":\"@bot help with server error\",\"ts\":\"1234567890.123456\",\"channel\":\"C123456\",\"event_ts\":\"1234567890.123456\"},\"type\":\"event_callback\",\"event_id\":\"Ev123456\",\"event_time\":1234567890,\"authed_users\":[\"UXXXXXXX\"]}",
+  "headers": {
+    "X-Slack-Signature": "v0=fake_signature",
+    "X-Slack-Request-Timestamp": "1710000000"
+  }
+}
