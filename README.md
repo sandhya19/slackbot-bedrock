@@ -50,8 +50,8 @@ Logging	CloudWatch Logs
 ## Getting Started
 ## 1. Clone this repository
 ```bash
-git clone https://github.com/yourusername/slackbot-bedrock-incident-classifier.git
-cd slackbot-bedrock-incident-classifier
+git clone https://github.com/sandhya19/slackbot-bedrock.git
+cd slackbot-bedrock
 ```
 ## 2. Set Up Slack App
 - Create a new Slack app
