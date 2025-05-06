@@ -1,3 +1,8 @@
+![Python](https://img.shields.io/badge/python-3.10-blue.svg)
+![AWS Lambda](https://img.shields.io/badge/deployed-AWS%20Lambda-orange)
+![Amazon Bedrock](https://img.shields.io/badge/AI-Amazon%20Bedrock-green)
+![Slackbot](https://img.shields.io/badge/chatbot-Slack-blue)
+
 # Slackbot for Incident Classification using Amazon Bedrock (Claude 3 Haiku)
 
 ## Overview
